@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"Number ";
+    cout<<"Give a Number :  ";
     cin>>n;
     
     int arr[n];
@@ -14,6 +14,7 @@ int main()
     }
 
     int key;
+    cout<<"Give Searching Number ";
     cin>>key;
     int flag;
     int l=0;
